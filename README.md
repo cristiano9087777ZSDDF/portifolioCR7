@@ -10,3 +10,9 @@ tinha um erro no codigo q era um "f"
  
  jv veio e ajudou
 
+aula de hoje 
+
+ontem teve um teste com uma atividade e n deu crt porque tinha 2 erro
+
+<P> 1 erro </p>
+
