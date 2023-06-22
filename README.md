@@ -16,3 +16,10 @@ ontem teve um teste com uma atividade e n deu crt porque tinha 2 erro
 
 <P> 1 erro </p>
 
+<h1>lista de exercicio</h1>
+
+fizemos uma lista de exercicios que precisava exibir um valor de 3 variaveis
+
+GOOGLE SCRIPT
+
+
