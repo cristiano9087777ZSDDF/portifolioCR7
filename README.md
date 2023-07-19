@@ -88,3 +88,31 @@ Tecnologia Utilizadas:
  <a href="https://script.google.com/macros/s/AKfycbxjMhUe3pdkLp1s4HAJjit33Ta6ndaYmf7z0nc6ZKZuZP4_mN0ihWILgC340ahGZGUl/exec">cálculo</a>
 
 <h1>Projeto: Planilha </h1>
+
+Arquivo (s):
+<ul>
+  <li>Planilha</li>
+</ul>
+
+Descrição: Página Web para compartilhar dados e nomes dos livros para uma planilha.
+
+Tecnologia Utilizadas:
+<ul>
+  <li>JavaScript</li>
+  </ul>
+  
+ Link para acesso ao projeto:
+ <a href="Arquivo (s):
+<ul>
+  <li>Calcular</li>
+</ul>
+
+Descrição: Página Web para fazer um calculo.
+
+Tecnologia Utilizadas:
+<ul>
+  <li>JavaScript</li>
+  </ul>
+  
+ Link para acesso ao projeto:
+ <a href="https://script.google.com/macros/s/AKfycbxLY1BUlVjtwkqQBQ6IxcxmPyHB2Nas5fMVjtZhPaTqnNH3XU7SUH3MmmZzZ63rYUc1/exec">Planilha</a>
