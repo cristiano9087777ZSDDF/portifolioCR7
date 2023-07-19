@@ -1,0 +1,49 @@
+function doGet() {
+   return HtmlService.createHtmlOutputFromFile('calculos');
+}
+function calcularValor(distancia, consumo, precoGasolina){
+var valorFinal = (distancia/consumo) * precoGasolina;
+return valorFinal;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Calculadora de Combustível</h1>
+    <form>
+      <label for="distancia">Distância (km):</label>
+      <input type="number" id="distancia" name="distancia" required><br>
+
+      <label for="consumo">Consumo (km/litro):</label>
+      <input type="number" id="consumo" name="consumo" step="0.01" required><br>
+
+      <label for="precoGasolina">Preço da Gasolina:</label>
+      <input type="number" id="precoGasolina" name="precoGasolina"><br>
+
+      <input type="button" value="Calcular" onclick="calcularValor()">
+    </form>
+
+    <h2>Valor Final:</h2>
+    <div id="resultado"></div>
+
+    <script>
+      function calcularValor() {
+        var distancia = parseFloat(document.getElementById("distancia").value);
+        var consumo = parseFloat(document.getElementById("consumo").value);
+        var precoGasolina = parseFloat(document.getElementById("precoGasolina").value);
+        
+google.script.run.withSuccessHandler(exibirResultado).calcularValor(distancia, consumo, precoGasolina);
+    }
+
+    function exibirResultado(valorFinal) {
+      document.getElementById("resultado").innerText = "Valor gasto: R$ " + valorFinal;
+        var valorFinal = (distancia / consumo) * precoGasolina;
+
+        
+      }
+    </script>
+  </body>
+</html>
